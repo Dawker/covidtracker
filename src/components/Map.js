@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Map.css";
 import { Map, TileLayer } from "react-leaflet";
-import { showDataOnMap } from "./util";
+import { showDataOnMap } from "../util";
 
 function MapLeft({ countries, casesType, center, zoom }) {
   const mapRef = useRef();

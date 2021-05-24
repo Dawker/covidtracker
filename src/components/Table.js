@@ -1,6 +1,5 @@
 import React from "react";
 import numeral from "numeral";
-import { v4 as uuidv4 } from "uuid";
 
 import "./Table.css";
 

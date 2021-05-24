@@ -3,7 +3,7 @@ import numeral from "numeral";
 import { Circle, Popup } from "react-leaflet";
 import { v4 as uuidv4 } from "uuid";
 
-import "./Map.css";
+import "./components/Map.css";
 
 export const casesTypeColors = {
   cases: {

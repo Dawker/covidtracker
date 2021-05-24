@@ -12,12 +12,12 @@ import {
 } from "@material-ui/core";
 
 import FavoriteIcon from "@material-ui/icons/Favorite";
-import InfoBox from "./infoBox";
-import LineGraph from "./LineGraph";
-import Table from "./Table";
+import InfoBox from "./components/infoBox";
+import LineGraph from "./components/LineGraph";
+import Table from "./components/Table";
 import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
-import MapLeft from "./Map";
+import MapLeft from "./components/Map";
 import "leaflet/dist/leaflet.css";
 
 const App = () => {
